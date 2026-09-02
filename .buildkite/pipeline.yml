@@ -1,0 +1,6 @@
+steps:
+  - label: ":hammer: Build"
+    command: "./scripts/test.sh"
+
+  - label: ":white_check_mark: Second step"
+    command: "echo 'Buildkite second step works!'"
